@@ -12,6 +12,13 @@ class Calculadora {
     return num1 * num2
   }
 
+  div(num1, num2) {
+    return num1 / num2
+  }
+
+  raiz(num1) {
+    return Math.sqrt(num1)
+  }
 
 
 }
