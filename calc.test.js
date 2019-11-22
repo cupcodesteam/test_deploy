@@ -13,3 +13,7 @@ test('verificar se subtracao esta funcionando', () => {
 test('verificar se subtracao esta funcionando', () => {
   expect(calculadora.mult(10, 20)).toBe(200)
 })
+
+test('verificar se a soma está funcionado', () => {
+  expect(calculadora.soma(10, 20)).toBe(440)
+})
